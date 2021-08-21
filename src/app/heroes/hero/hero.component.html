@@ -1,0 +1,23 @@
+<h1>Hero Component Words</h1>
+
+<dl>
+    <td>Name:</td>
+    <dd>{{ name }}</dd>
+
+    <td>Year:</td>
+    <dd>{{ year }}</dd>
+
+    <td>Funcion:</td>
+    <dd>{{ getName () }}</dd>
+
+    <td>Capitalized:</td>
+    <dd>{{ nameCapitalized }}</dd>
+</dl>
+
+<button (click)="changeName()">
+    Change Hero
+</button>
+
+<button (click)="changeYear()">
+    Change Year
+</button>
